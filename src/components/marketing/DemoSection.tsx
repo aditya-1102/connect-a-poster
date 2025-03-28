@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Calendar, Clock, Edit, Check } from "lucide-react";
+import { Calendar, Clock, Edit, Check, Bot, Facebook, Instagram } from "lucide-react";
 
 const DemoSection = () => {
   return (
