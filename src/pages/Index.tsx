@@ -12,9 +12,9 @@ import Footer from '@/components/marketing/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <NavBar />
-      <main className="overflow-hidden">
+      <main>
         <HeroSection />
         <FeaturesSection />
         <IntegrationsSection />

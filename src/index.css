@@ -17,7 +17,7 @@
     --primary: 262 83% 58%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 199 89% 48%;
+    --secondary: 189 94% 43%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 210 40% 96.1%;
@@ -33,7 +33,7 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 262 83% 58%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -58,7 +58,7 @@
     --primary: 263 70% 50%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 199 89% 48%;
+    --secondary: 189 94% 43%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -92,6 +92,10 @@
     @apply bg-clip-text text-transparent bg-hero-pattern;
   }
   
+  .soft-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-soft;
+  }
+  
   .feature-card {
     @apply rounded-xl p-6 bg-white shadow-lg border border-slate-100 hover:shadow-xl transition-shadow duration-300;
   }
@@ -102,5 +106,13 @@
   
   .section-subtitle {
     @apply text-lg text-slate-600 max-w-3xl mx-auto mb-12;
+  }
+  
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-sm border border-white/30 shadow-xl;
+  }
+  
+  .blob-shape {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
 }
