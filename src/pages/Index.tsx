@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <NavBar />
-      <main>
+      <main className="overflow-hidden">
         <HeroSection />
         <FeaturesSection />
         <IntegrationsSection />
